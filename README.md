@@ -4,4 +4,5 @@
 1. Program to find the missing element in an array containing numbers from 1 to n-1.
 1. Program to find the subarray with given sum.
 1. Sort an array of 0s, 1s and 2s.
-2. Program to find the equilibrium point in an array.
+1. Program to find the equilibrium point in an array.
+1. Program to find the leaders in an array.
