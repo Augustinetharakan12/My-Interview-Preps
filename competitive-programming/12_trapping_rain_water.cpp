@@ -55,8 +55,8 @@ int main() {
 			}
 		}
 	}
+
 	for(i=0; i<limit; i++)
 		cout << "\n" << vol[i];
 	cout << " \nTotal Volume = " << volume;
-
 }
