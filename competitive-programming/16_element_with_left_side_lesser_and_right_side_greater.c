@@ -29,6 +29,8 @@ int main () {
 			flag = false;
 
 	}
-
-	cout << "\n" << arr[pos];
+	if(flag == true)
+		cout << "\n" << arr[pos];
+	else
+		cout << "\nNo such element found";
 }
