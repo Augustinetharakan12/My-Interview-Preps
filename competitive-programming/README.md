@@ -25,3 +25,4 @@
 1. Given a matrix mat[][] of size M*N. Traverse and print the matrix in spiral form.
 1. Given an array A[] of integers, sort the array according to frequency of elements. That is elements that have higher frequency come first. If frequencies of two elements are same, then smaller number comes first.
 1. Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.The result is going to be very large, hence return the result in the form of a string.
+1. Given an array of 0's and 1's your task is to complete the function maxLen which returns size of the largest sub array with equal number of 0's and 1's .The function maxLen takes 2 arguments. The first argument is the array A[] and second argument is the size 'N' of the array A[] .
