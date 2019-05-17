@@ -1,19 +1,40 @@
-#include <iostream>
-#include <algorithm>
+#include<bits/stdc++.h>
 
 using namespace std;
 
-int main (){
-	int limit, i, j;
-	char string[100][100];
+int myCompare(string X, string Y) {
+    string XY = X.append(Y);
+    string YX = Y.append(X);
+    return XY.compare(YX) > 0 ? 1: 0;
+}
 
-	cout << "Enter the number of strings";
-	cin >> limit;
+void printLargest(vector<string> arr) {
+    sort(arr.begin(), arr.end(), myCompare);
+    for (int i=0; i < arr.size() ; i++ )
+        cout << arr[i];
+}
 
-	cout << "Enter the strings followed by space";
-	for(i=0; i<limit; i++)
-		cin >> string[i];
+int main() {
 
-	for(i=0; i<limit; i++)
-		cout << "\n" << string[i];
+    int t;
+
+    cin >> t;
+
+    while(t--) {
+        int n;
+
+        cin >> n;
+
+        vector<string> A;
+
+        for (int i=0; i<n ; i++) {
+            int ip;
+            cin >> ip;
+            A.push_back(to_string(ip));
+        }
+
+        printLargest(A);
+
+        cout<<endl;
+    }
 }
