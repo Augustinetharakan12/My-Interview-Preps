@@ -4,3 +4,4 @@
 
 1. Given a linked list of N nodes. The task is to reverse this list.
 1. Given a linked list of N nodes. The task is to check if the the linked list has a loop. Linked list can contain self loop.
+1. Given a Linked List and a number n, write a function that returns the value at the n’th node from end of the Linked List.
