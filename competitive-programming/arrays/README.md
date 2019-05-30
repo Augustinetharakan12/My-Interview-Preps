@@ -30,3 +30,4 @@
 1. Given a link list, write a program to find the nth element from the end of the link list.
 1. Given two sorted arrays P[] and Q[] in non-decreasing order with size X and Y. The task is to merge the two sorted arrays into one sorted array (in non-decreasing order).
 1. Given an array of size N consisting of only 0's and 1's ,which is sorted in such a manner that all the 1's are placed first and then they are followed by all the 0's. You have to find  the count of all the 0's.
+1. Given a sequence A of size N, find the length of the longest increasing subsequence from a given sequence .
