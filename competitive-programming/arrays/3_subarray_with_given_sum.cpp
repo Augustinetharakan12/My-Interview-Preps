@@ -15,7 +15,7 @@ int main() {
 	end = 0;
 	sum = 0;
 	i = 0;
-	while(i < limit-1) {
+	while(i < limit) {
 		sum = sum+arr[i];
 		end = i;
 
