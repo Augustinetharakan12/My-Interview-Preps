@@ -1,29 +1,27 @@
 #include <bits/stdc++.h>
 
-#define OPEN arr[i] == '[' || arr[i] == '(' || arr[i] == '{'
-
 using namespace std;
 
+#define OPEN arr[i] == '[' || arr[i] == '(' || arr[i] == '{'
+
 int main() {
-    int t, stack[1000], arr[10000], arr_size, top, i;
+    int t, arr_size, top, i;
+    char stack[10000], arr[10000];
     bool flag;
-    
+
     cin >> t;
-    
+
     while(t--) {
-        cin >> arr_size;
-        
-        for(i=0; i<arr_size; i++)
-            cin >> arr[i];
-            
+
+        cin >> arr;
+
         flag = 0;
         top = 0;
-        
-        for(i=0; i<arr_size; i++) {
+
+        for(i=0; arr[i]!='\0'; i++) {
             if(OPEN)
                 stack[top++] = arr[i];
             else {
-                cout << "\n" << arr[i] << " " << stack[top-1];
                 if(top == 0){flag = 1; break;}
                 else if(arr[i] == ')') {
                     if(stack[top-1] == '(') top--;
@@ -41,6 +39,6 @@ int main() {
         }
         if(flag == 0 and top == 0) cout << "balanced\n";
         else cout << "not balanced\n";
-        
+
     }
 }
