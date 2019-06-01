@@ -9,3 +9,4 @@
 1. You have to complete the method which takes 1 argument: the head of the  linked list  .You should not read any input from stdin/console. There are multiple test cases. For each test case, this method will be called individually.
 1. Given a Linked list with reference to the Node that is to be deleted. (the pointer is not the head or the end of the link list)
 1. Given a single linked list and an integer x your task is to complete the function deleteAllOccurances  which deletes all occurences of a key x present in the linked list. The function takes two arguments: the head of the linked list and an integer x. The function should return the head of the modified linked list.
+1. Given a linked list,performs the following task a)Remove alternative nodes from second node b)Reverse the removed list. c)Append the removed list at the end.
