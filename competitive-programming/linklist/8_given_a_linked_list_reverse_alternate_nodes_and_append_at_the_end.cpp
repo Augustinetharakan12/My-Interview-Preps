@@ -26,6 +26,7 @@ void rearrange(struct node *odd)
     
     while(ptr_2 != NULL) {
         if(ptr_2 -> next == NULL ) break;
+
         ptr_1 -> next = ptr_2 -> next;
         ptr_2 -> next = ptr_2 -> next == NULL ? NULL:ptr_2->next->next;
         ptr_1 = ptr_1 -> next;
