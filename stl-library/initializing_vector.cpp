@@ -1,8 +1,9 @@
-#include <iostream>
+/*#include <iostream>
 #include <algorithm>
 #include <vector>
-#include <numeric> // for accumulate
-
+#include <numeric>
+*/
+#include <bits/stdc++.h>
 using namespace std;
 
 void display(vector<int> vect, int vect_size) {
