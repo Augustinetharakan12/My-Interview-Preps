@@ -53,16 +53,4 @@ int main() {
 	}
 	printf("Merged at%d", ptr1->data);
 
-
-	/*
-	//For finding the first node of the cycle
-	ptr1 = head;
-	while(ptr1 != ptr2){
-		ptr1 = ptr1->next->next;
-		ptr2 = ptr2->next;
-		printf("%d %d", ptr1->data, ptr2->data);
-	}
-	printf("Start node data: %d", ptr1->data);
-	*/
-
 }
