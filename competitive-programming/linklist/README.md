@@ -11,3 +11,5 @@
 1. Given a single linked list and an integer x your task is to complete the function deleteAllOccurances  which deletes all occurences of a key x present in the linked list. The function takes two arguments: the head of the linked list and an integer x. The function should return the head of the modified linked list.
 1. Given a linked list,performs the following task a)Remove alternative nodes from second node b)Reverse the removed list. c)Append the removed list at the end.
 1. There are two singly linked lists of size N and M in a system. But, due to some programming error the end node of one of the linked list got linked into one of the node of second list, forming a inverted Y shaped list. Write a program to get the point where two linked lists intersect each other.
+1. Given n sorted link list, convert into one sorted link list.
+1. You are given a linked list of N nodes. The task is to remove the loop from the linked list, if present.
