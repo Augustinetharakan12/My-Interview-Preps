@@ -38,3 +38,4 @@
 1. Given an unsorted array of size N of positive integers. One number 'A' from set {1, 2, …N} is missing and one number 'B' occurs twice in array. Find these two numbers.
 1. Given a 2d matrix, write a program to find the max value from each row and it's count.
 1. Longest continuous numbers that can be formed from an array.
+1. Given a Linked List Representation of Complete Binary Tree. The task is to construct the Binary tree.
