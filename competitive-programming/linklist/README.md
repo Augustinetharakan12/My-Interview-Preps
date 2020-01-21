@@ -13,3 +13,4 @@
 1. There are two singly linked lists of size N and M in a system. But, due to some programming error the end node of one of the linked list got linked into one of the node of second list, forming a inverted Y shaped list. Write a program to get the point where two linked lists intersect each other.
 1. Given n sorted link list, convert into one sorted link list.
 1. You are given a linked list of N nodes. The task is to remove the loop from the linked list, if present.
+1. Find the height of a binary tree.
